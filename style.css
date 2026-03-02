@@ -9,4 +9,44 @@ p {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
+}/* HERO SECTION */
+.hero {
+  background: #F2E8DC;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  color: #6B4E3D;
+  font-size: 52px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  color: #2B2B2B;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #C94F3D;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background: #6B4E3D;
 }
