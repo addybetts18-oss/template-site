@@ -20,7 +20,22 @@ p {
   max-width: 800px;
   margin: 0 auto;
 }
+/* PDF LINK BOX MODEL */
+.pdf-link {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: 2px solid #333;
+  background-color: #f2c94c;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
+.pdf-link:hover {
+  background-color: #e0b93f;
+}
 .hero h1 {
   color: #6B4E3D;
   font-size: 52px;
