@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: pink;
+}
