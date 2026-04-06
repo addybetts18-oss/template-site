@@ -105,3 +105,54 @@ li:hover {
 @page {
   margin: 1in;
 }
+/* CONTACT FORM STYLING */
+
+.contact-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #D9CCBD;
+  border-radius: 10px;
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #6B4E3D;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 6px;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  background-color: #C94F3D;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #6B4E3D;
+}
