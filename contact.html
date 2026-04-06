@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Glaze</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="The Glaze Logo">
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="contact-container">
+    <h1>Contact Us</h1>
+
+    <form class="contact-form">
+
+      <label for="title">Title</label>
+      <select id="title" name="title" required>
+        <option value="" disabled selected>Select your title</option>
+        <option value="mr">Mr.</option>
+        <option value="ms">Ms.</option>
+        <option value="mrs">Mrs.</option>
+        <option value="dr">Dr.</option>
+      </select>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+      <label for="topic">Reason for Contact</label>
+      <select id="topic" name="topic" required>
+        <option value="" disabled selected>Select a reason</option>
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="catering">Catering Inquiry</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter your message here" required></textarea>
+
+      <input type="submit" value="Submit" class="submit-btn">
+
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>(555) 123-4567</p>
+  <p>yourname@email.com</p>
+</footer>
+
+</body>
+</html>
