@@ -20,3 +20,46 @@ nav a {
 nav a:hover {
   color: pink;
 }
+/* FLEX NAVIGATION */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* LINK STYLE */
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C94F3D;
+  padding: 10px;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+nav {
+  background-color: #C94F3D;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
