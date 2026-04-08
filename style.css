@@ -156,3 +156,15 @@ li:hover {
 .submit-btn:hover {
   background-color: #6B4E3D;
 }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.about-grid section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
