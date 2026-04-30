@@ -274,3 +274,8 @@ h2 {
   text-shadow: 2px 2px 4px #999;
   text-decoration: underline;
 }
+.logo {
+  width: 120px;
+  height: auto;
+  display: block;
+}
