@@ -342,6 +342,8 @@ h2 {
 }
 
 .gallery img {
-  width: 300px;          /* controls size */
+  width: 300px;
+  height: auto;        /* ✅ FIXES THE WEIRD ZOOM */
+  object-fit: cover;
   border-radius: 15px;
 }
