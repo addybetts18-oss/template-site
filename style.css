@@ -329,4 +329,9 @@ h2 {
 .about-hero p {
   font-size: 18px;
 }
+.mission {
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+}
 
