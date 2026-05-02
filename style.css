@@ -15,8 +15,9 @@ p {
 }/* HERO SECTION */
 .hero {
   position: relative;
-  height: 70vh; /* adjust the height if needed */
-  background-image: url("images/tourtsoup.png"); /* your new homepage image */
+  height: 70vh;
+  background-color: #F2E8DC; /* my original background */
+  background-image: url("images/tourtsoup.img.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +26,6 @@ p {
   justify-content: center;
   text-align: center;
 }
-
 
 .hero-content {
   max-width: 800px;
