@@ -14,10 +14,18 @@ p {
   line-height: 1.6;
 }/* HERO SECTION */
 .hero {
-  background: #F2E8DC;
-  padding: 80px 20px;
+  position: relative;
+  height: 70vh; /* adjust the height if needed */
+  background-image: url("images/tourtsoup.png"); /* your new homepage image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
+
 
 .hero-content {
   max-width: 800px;
