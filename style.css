@@ -334,4 +334,14 @@ h2 {
   max-width: 800px;
   margin: 20px auto;
 }
+.gallery {
+  display: flex;
+  gap: 20px;              /* space between images */
+  flex-wrap: wrap;        /* allows them to go to next row if needed */
+  justify-content: center;
+}
 
+.gallery img {
+  width: 300px;          /* controls size */
+  border-radius: 15px;
+}
