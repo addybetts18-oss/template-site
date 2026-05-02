@@ -309,4 +309,24 @@ h2 {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }
+.about-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/salmon.img.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 20px;
+  margin: 25px auto;
+  max-width: 900px;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+}
 
