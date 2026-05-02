@@ -332,3 +332,21 @@ h2 {
   text-align: center;
   max-width: 800px;
   margin: 20px auto;
+  main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 20px !important;
+  padding: 40px !important;
+}
+
+.gallery img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+  border-radius: 10px;
+}
