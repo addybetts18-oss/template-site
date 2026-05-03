@@ -350,3 +350,20 @@ h2 {
   object-fit: cover !important;
   border-radius: 10px;
 }
+.gallery-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.gallery-text {
+  max-width: 500px;
+}
