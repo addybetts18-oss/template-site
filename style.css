@@ -399,3 +399,24 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
 }
+.gallery {
+  padding: 20px;
+}
+
+.gallery-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.gallery-text {
+  max-width: 500px;
+}
