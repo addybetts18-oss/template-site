@@ -420,3 +420,9 @@ h2 {
 .gallery-text {
   max-width: 500px;
 }
+.profile-video {
+  display: block;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 15px;
+}
